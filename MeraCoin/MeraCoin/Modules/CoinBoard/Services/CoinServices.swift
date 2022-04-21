@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 import RxCocoa
-import Alamofire
+
 
 protocol CoinServiceProtocol {
     var hideLoading: BehaviorRelay<Bool> { get }
