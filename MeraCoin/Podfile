@@ -8,8 +8,6 @@ target 'MeraCoin' do
   # Pods for MeraCoin
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
-  pod 'FontAwesome.swift'
-  pod 'DropDown'
   pod 'SDWebImage'
   pod 'SDWebImageFLPlugin'
   target 'MeraCoinTests' do
@@ -19,7 +17,6 @@ target 'MeraCoin' do
     pod 'RxCocoa', '6.5.0'
     pod 'RxTest'
     pod 'RxBlocking'
-    pod 'Alamofire', '~> 5.0.0-rc.3'
     pod 'SDWebImage'
     pod 'SDWebImageFLPlugin'
   end

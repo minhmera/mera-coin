@@ -30,9 +30,9 @@
 		387E3E4D27F58839002DE3D8 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E4C27F58839002DE3D8 /* ViewControllerUtils.swift */; };
 		387E3E4F27F5884A002DE3D8 /* GeneralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E4E27F5884A002DE3D8 /* GeneralExtension.swift */; };
 		387E3E5127F58854002DE3D8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E5027F58854002DE3D8 /* UIColor+Extension.swift */; };
-		8F733EEE45FC644A3196FA36 /* Pods_MeraCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6FEB043C734F92D8561B11 /* Pods_MeraCoin.framework */; };
-		E8A9B8CEB3B559BC5762A370 /* Pods_MeraCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DF9F49044E1D7C8E7AD14D /* Pods_MeraCoinTests.framework */; };
-		FF9F94AB4CE7B317415402BE /* Pods_MeraCoin_MeraCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25DBFFC385AE75E7493E10 /* Pods_MeraCoin_MeraCoinUITests.framework */; };
+		6041290E5368DF60C7165E34 /* Pods_MeraCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D06ADF4666A034A2012D68 /* Pods_MeraCoin.framework */; };
+		A58739463D78556CCB8E3B35 /* Pods_MeraCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6D99419F238EE0391FDD57 /* Pods_MeraCoinTests.framework */; };
+		D445A6E62DCADD27522ECE95 /* Pods_MeraCoin_MeraCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ED51B2726E29FE45E8562C /* Pods_MeraCoin_MeraCoinUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056A4B97EB077EAAF41A8BB5 /* Pods-MeraCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoinTests.release.xcconfig"; path = "Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A8E542843F41A80ECB91D64 /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin-MeraCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31D06ADF4666A034A2012D68 /* Pods_MeraCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3824FF7027F59ED3005A7AA6 /* CoinDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailCell.swift; sourceTree = "<group>"; };
 		3824FF7127F59ED3005A7AA6 /* CoinDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinDetailCell.xib; sourceTree = "<group>"; };
 		382DD12128105CF0000FA85A /* APITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
@@ -80,15 +83,12 @@
 		387E3E4C27F58839002DE3D8 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
 		387E3E4E27F5884A002DE3D8 /* GeneralExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralExtension.swift; sourceTree = "<group>"; };
 		387E3E5027F58854002DE3D8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		466E86C7D4ACD7F856F418AD /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin-MeraCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C13B86BFD5273637DB1980D /* Pods-MeraCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoin/Pods-MeraCoin.debug.xcconfig"; sourceTree = "<group>"; };
-		728A24D92145B06F30BF2521 /* Pods-MeraCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoinTests.release.xcconfig"; path = "Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests.release.xcconfig"; sourceTree = "<group>"; };
-		747A219998DF3F6FCD2365B4 /* Pods-MeraCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoinTests.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
-		76DF9F49044E1D7C8E7AD14D /* Pods_MeraCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A60A8EA75BEB51779F0B4CC8 /* Pods-MeraCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin.release.xcconfig"; path = "Target Support Files/Pods-MeraCoin/Pods-MeraCoin.release.xcconfig"; sourceTree = "<group>"; };
-		BB6FEB043C734F92D8561B11 /* Pods_MeraCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7E2E815C9F9BAA7C38B4704 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin-MeraCoinUITests.release.xcconfig"; path = "Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FA25DBFFC385AE75E7493E10 /* Pods_MeraCoin_MeraCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoin_MeraCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BEDB44EEB9D8BF5AA5988C /* Pods-MeraCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin.release.xcconfig"; path = "Target Support Files/Pods-MeraCoin/Pods-MeraCoin.release.xcconfig"; sourceTree = "<group>"; };
+		5C06F4040222BE47D09EC8C1 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin-MeraCoinUITests.release.xcconfig"; path = "Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F1E13A6BBC8ABBF72BE3655 /* Pods-MeraCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoin/Pods-MeraCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		8F6D99419F238EE0391FDD57 /* Pods_MeraCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3ED51B2726E29FE45E8562C /* Pods_MeraCoin_MeraCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoin_MeraCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE5F5E12D594E73DB726681 /* Pods-MeraCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoinTests.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F733EEE45FC644A3196FA36 /* Pods_MeraCoin.framework in Frameworks */,
+				6041290E5368DF60C7165E34 /* Pods_MeraCoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A9B8CEB3B559BC5762A370 /* Pods_MeraCoinTests.framework in Frameworks */,
+				A58739463D78556CCB8E3B35 /* Pods_MeraCoinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9F94AB4CE7B317415402BE /* Pods_MeraCoin_MeraCoinUITests.framework in Frameworks */,
+				D445A6E62DCADD27522ECE95 /* Pods_MeraCoin_MeraCoinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +122,12 @@
 		334944A18CAD692956DBDBBF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C13B86BFD5273637DB1980D /* Pods-MeraCoin.debug.xcconfig */,
-				A60A8EA75BEB51779F0B4CC8 /* Pods-MeraCoin.release.xcconfig */,
-				466E86C7D4ACD7F856F418AD /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */,
-				E7E2E815C9F9BAA7C38B4704 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */,
-				747A219998DF3F6FCD2365B4 /* Pods-MeraCoinTests.debug.xcconfig */,
-				728A24D92145B06F30BF2521 /* Pods-MeraCoinTests.release.xcconfig */,
+				8F1E13A6BBC8ABBF72BE3655 /* Pods-MeraCoin.debug.xcconfig */,
+				45BEDB44EEB9D8BF5AA5988C /* Pods-MeraCoin.release.xcconfig */,
+				1A8E542843F41A80ECB91D64 /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */,
+				5C06F4040222BE47D09EC8C1 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */,
+				BEE5F5E12D594E73DB726681 /* Pods-MeraCoinTests.debug.xcconfig */,
+				056A4B97EB077EAAF41A8BB5 /* Pods-MeraCoinTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 				385A793A27F4AF7000D0265A /* MeraCoinUITests */,
 				385A791827F4AF6F00D0265A /* Products */,
 				334944A18CAD692956DBDBBF /* Pods */,
-				5048288108D022C8AEC6EF73 /* Frameworks */,
+				80FB938C861BDFD39B9C222D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,12 +279,12 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		5048288108D022C8AEC6EF73 /* Frameworks */ = {
+		80FB938C861BDFD39B9C222D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB6FEB043C734F92D8561B11 /* Pods_MeraCoin.framework */,
-				FA25DBFFC385AE75E7493E10 /* Pods_MeraCoin_MeraCoinUITests.framework */,
-				76DF9F49044E1D7C8E7AD14D /* Pods_MeraCoinTests.framework */,
+				31D06ADF4666A034A2012D68 /* Pods_MeraCoin.framework */,
+				A3ED51B2726E29FE45E8562C /* Pods_MeraCoin_MeraCoinUITests.framework */,
+				8F6D99419F238EE0391FDD57 /* Pods_MeraCoinTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -296,11 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385A794127F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoin" */;
 			buildPhases = (
-				F0EF81F82C738A1DC4FA27CE /* [CP] Check Pods Manifest.lock */,
+				15107917F9480D7151565215 /* [CP] Check Pods Manifest.lock */,
 				385A791327F4AF6F00D0265A /* Sources */,
 				385A791427F4AF6F00D0265A /* Frameworks */,
 				385A791527F4AF6F00D0265A /* Resources */,
-				84CF4D91C15192B5FE3C0751 /* [CP] Embed Pods Frameworks */,
+				8FEC594D81CD382A9DE515F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,11 +315,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385A794427F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoinTests" */;
 			buildPhases = (
-				A8D4260333D239CCCADD9E43 /* [CP] Check Pods Manifest.lock */,
+				5F52F431D8BD9C5A26D9FED7 /* [CP] Check Pods Manifest.lock */,
 				385A792927F4AF7000D0265A /* Sources */,
 				385A792A27F4AF7000D0265A /* Frameworks */,
 				385A792B27F4AF7000D0265A /* Resources */,
-				B2AE24B5953714D7E07D8E33 /* [CP] Embed Pods Frameworks */,
+				30024D1894F305C8E933DD68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,11 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385A794727F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoinUITests" */;
 			buildPhases = (
-				E19315B0C9E764C3DA0DC9EC /* [CP] Check Pods Manifest.lock */,
+				294B08E8999E1F36EB215C1A /* [CP] Check Pods Manifest.lock */,
 				385A793327F4AF7000D0265A /* Sources */,
 				385A793427F4AF7000D0265A /* Frameworks */,
 				385A793527F4AF7000D0265A /* Resources */,
-				DAC5B916AD406D3432AFCC12 /* [CP] Embed Pods Frameworks */,
+				D7DEF5DCC8C59918B0FBEEEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -423,24 +423,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		84CF4D91C15192B5FE3C0751 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A8D4260333D239CCCADD9E43 /* [CP] Check Pods Manifest.lock */ = {
+		15107917F9480D7151565215 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,48 +438,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MeraCoinTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeraCoin-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B2AE24B5953714D7E07D8E33 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DAC5B916AD406D3432AFCC12 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E19315B0C9E764C3DA0DC9EC /* [CP] Check Pods Manifest.lock */ = {
+		294B08E8999E1F36EB215C1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,7 +467,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0EF81F82C738A1DC4FA27CE /* [CP] Check Pods Manifest.lock */ = {
+		30024D1894F305C8E933DD68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F52F431D8BD9C5A26D9FED7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -533,11 +499,45 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MeraCoin-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MeraCoinTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEC594D81CD382A9DE515F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DEF5DCC8C59918B0FBEEEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -736,7 +736,7 @@
 		};
 		385A794227F4AF7000D0265A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C13B86BFD5273637DB1980D /* Pods-MeraCoin.debug.xcconfig */;
+			baseConfigurationReference = 8F1E13A6BBC8ABBF72BE3655 /* Pods-MeraCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -764,7 +764,7 @@
 		};
 		385A794327F4AF7000D0265A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A60A8EA75BEB51779F0B4CC8 /* Pods-MeraCoin.release.xcconfig */;
+			baseConfigurationReference = 45BEDB44EEB9D8BF5AA5988C /* Pods-MeraCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -792,7 +792,7 @@
 		};
 		385A794527F4AF7000D0265A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 747A219998DF3F6FCD2365B4 /* Pods-MeraCoinTests.debug.xcconfig */;
+			baseConfigurationReference = BEE5F5E12D594E73DB726681 /* Pods-MeraCoinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -817,7 +817,7 @@
 		};
 		385A794627F4AF7000D0265A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 728A24D92145B06F30BF2521 /* Pods-MeraCoinTests.release.xcconfig */;
+			baseConfigurationReference = 056A4B97EB077EAAF41A8BB5 /* Pods-MeraCoinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -842,7 +842,7 @@
 		};
 		385A794827F4AF7000D0265A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 466E86C7D4ACD7F856F418AD /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */;
+			baseConfigurationReference = 1A8E542843F41A80ECB91D64 /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -865,7 +865,7 @@
 		};
 		385A794927F4AF7000D0265A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E2E815C9F9BAA7C38B4704 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */;
+			baseConfigurationReference = 5C06F4040222BE47D09EC8C1 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
