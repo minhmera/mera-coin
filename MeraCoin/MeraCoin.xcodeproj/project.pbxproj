@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3824FF7227F59ED3005A7AA6 /* CoinDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824FF7027F59ED3005A7AA6 /* CoinDetailCell.swift */; };
+		3824FF7327F59ED3005A7AA6 /* CoinDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3824FF7127F59ED3005A7AA6 /* CoinDetailCell.xib */; };
+		382DD12228105CF0000FA85A /* APITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382DD12128105CF0000FA85A /* APITest.swift */; };
+		385A791B27F4AF6F00D0265A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A791A27F4AF6F00D0265A /* AppDelegate.swift */; };
+		385A791D27F4AF6F00D0265A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A791C27F4AF6F00D0265A /* SceneDelegate.swift */; };
+		385A791F27F4AF6F00D0265A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A791E27F4AF6F00D0265A /* ViewController.swift */; };
+		385A792227F4AF6F00D0265A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385A792027F4AF6F00D0265A /* Main.storyboard */; };
+		385A792427F4AF7000D0265A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385A792327F4AF7000D0265A /* Assets.xcassets */; };
+		385A792727F4AF7000D0265A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385A792527F4AF7000D0265A /* LaunchScreen.storyboard */; };
+		385A793227F4AF7000D0265A /* MeraCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A793127F4AF7000D0265A /* MeraCoinTests.swift */; };
+		385A793C27F4AF7000D0265A /* MeraCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A793B27F4AF7000D0265A /* MeraCoinUITests.swift */; };
+		385A793E27F4AF7000D0265A /* MeraCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A793D27F4AF7000D0265A /* MeraCoinUITestsLaunchTests.swift */; };
+		385A795127F4B14300D0265A /* CoinboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A795027F4B14300D0265A /* CoinboardViewController.swift */; };
+		385A795327F4B1BA00D0265A /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A795227F4B1BA00D0265A /* CoinListViewModel.swift */; };
+		385A795527F4B48800D0265A /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A795427F4B48800D0265A /* CoinViewModel.swift */; };
+		385A795727F4B4CB00D0265A /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A795627F4B4CB00D0265A /* CoinModel.swift */; };
+		385A795A27F4B56800D0265A /* CoinServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A795927F4B56800D0265A /* CoinServices.swift */; };
+		3866290B2810FCD10020CAE3 /* CoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866290A2810FCD10020CAE3 /* CoinAPI.swift */; };
+		38666C9F27F8AB100042E931 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38666C9E27F8AB100042E931 /* AppUtils.swift */; };
+		387E3E4B27F5882C002DE3D8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E4A27F5882C002DE3D8 /* BaseViewController.swift */; };
+		387E3E4D27F58839002DE3D8 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E4C27F58839002DE3D8 /* ViewControllerUtils.swift */; };
+		387E3E4F27F5884A002DE3D8 /* GeneralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E4E27F5884A002DE3D8 /* GeneralExtension.swift */; };
+		387E3E5127F58854002DE3D8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E3E5027F58854002DE3D8 /* UIColor+Extension.swift */; };
+		8F733EEE45FC644A3196FA36 /* Pods_MeraCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6FEB043C734F92D8561B11 /* Pods_MeraCoin.framework */; };
+		E8A9B8CEB3B559BC5762A370 /* Pods_MeraCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DF9F49044E1D7C8E7AD14D /* Pods_MeraCoinTests.framework */; };
+		FF9F94AB4CE7B317415402BE /* Pods_MeraCoin_MeraCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25DBFFC385AE75E7493E10 /* Pods_MeraCoin_MeraCoinUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		385A792E27F4AF7000D0265A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385A790F27F4AF6F00D0265A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385A791627F4AF6F00D0265A;
+			remoteInfo = MeraCoin;
+		};
+		385A793827F4AF7000D0265A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385A790F27F4AF6F00D0265A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385A791627F4AF6F00D0265A;
+			remoteInfo = MeraCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3824FF7027F59ED3005A7AA6 /* CoinDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailCell.swift; sourceTree = "<group>"; };
+		3824FF7127F59ED3005A7AA6 /* CoinDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinDetailCell.xib; sourceTree = "<group>"; };
+		382DD12128105CF0000FA85A /* APITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
+		385A791727F4AF6F00D0265A /* MeraCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeraCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		385A791A27F4AF6F00D0265A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		385A791C27F4AF6F00D0265A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		385A791E27F4AF6F00D0265A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		385A792127F4AF6F00D0265A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		385A792327F4AF7000D0265A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		385A792627F4AF7000D0265A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		385A792827F4AF7000D0265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385A792D27F4AF7000D0265A /* MeraCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeraCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		385A793127F4AF7000D0265A /* MeraCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraCoinTests.swift; sourceTree = "<group>"; };
+		385A793727F4AF7000D0265A /* MeraCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeraCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		385A793B27F4AF7000D0265A /* MeraCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraCoinUITests.swift; sourceTree = "<group>"; };
+		385A793D27F4AF7000D0265A /* MeraCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeraCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		385A795027F4B14300D0265A /* CoinboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinboardViewController.swift; sourceTree = "<group>"; };
+		385A795227F4B1BA00D0265A /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
+		385A795427F4B48800D0265A /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		385A795627F4B4CB00D0265A /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		385A795927F4B56800D0265A /* CoinServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinServices.swift; sourceTree = "<group>"; };
+		3866290A2810FCD10020CAE3 /* CoinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPI.swift; sourceTree = "<group>"; };
+		38666C9E27F8AB100042E931 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		387E3E4A27F5882C002DE3D8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		387E3E4C27F58839002DE3D8 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
+		387E3E4E27F5884A002DE3D8 /* GeneralExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralExtension.swift; sourceTree = "<group>"; };
+		387E3E5027F58854002DE3D8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		466E86C7D4ACD7F856F418AD /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin-MeraCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C13B86BFD5273637DB1980D /* Pods-MeraCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoin/Pods-MeraCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		728A24D92145B06F30BF2521 /* Pods-MeraCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoinTests.release.xcconfig"; path = "Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		747A219998DF3F6FCD2365B4 /* Pods-MeraCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoinTests.debug.xcconfig"; path = "Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76DF9F49044E1D7C8E7AD14D /* Pods_MeraCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60A8EA75BEB51779F0B4CC8 /* Pods-MeraCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin.release.xcconfig"; path = "Target Support Files/Pods-MeraCoin/Pods-MeraCoin.release.xcconfig"; sourceTree = "<group>"; };
+		BB6FEB043C734F92D8561B11 /* Pods_MeraCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E2E815C9F9BAA7C38B4704 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeraCoin-MeraCoinUITests.release.xcconfig"; path = "Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA25DBFFC385AE75E7493E10 /* Pods_MeraCoin_MeraCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeraCoin_MeraCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385A791427F4AF6F00D0265A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F733EEE45FC644A3196FA36 /* Pods_MeraCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A792A27F4AF7000D0265A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A9B8CEB3B559BC5762A370 /* Pods_MeraCoinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A793427F4AF7000D0265A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9F94AB4CE7B317415402BE /* Pods_MeraCoin_MeraCoinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334944A18CAD692956DBDBBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C13B86BFD5273637DB1980D /* Pods-MeraCoin.debug.xcconfig */,
+				A60A8EA75BEB51779F0B4CC8 /* Pods-MeraCoin.release.xcconfig */,
+				466E86C7D4ACD7F856F418AD /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */,
+				E7E2E815C9F9BAA7C38B4704 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */,
+				747A219998DF3F6FCD2365B4 /* Pods-MeraCoinTests.debug.xcconfig */,
+				728A24D92145B06F30BF2521 /* Pods-MeraCoinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3824FF6F27F59E85005A7AA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3824FF7027F59ED3005A7AA6 /* CoinDetailCell.swift */,
+				3824FF7127F59ED3005A7AA6 /* CoinDetailCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		385A790E27F4AF6F00D0265A = {
+			isa = PBXGroup;
+			children = (
+				385A791927F4AF6F00D0265A /* MeraCoin */,
+				385A793027F4AF7000D0265A /* MeraCoinTests */,
+				385A793A27F4AF7000D0265A /* MeraCoinUITests */,
+				385A791827F4AF6F00D0265A /* Products */,
+				334944A18CAD692956DBDBBF /* Pods */,
+				5048288108D022C8AEC6EF73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		385A791827F4AF6F00D0265A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385A791727F4AF6F00D0265A /* MeraCoin.app */,
+				385A792D27F4AF7000D0265A /* MeraCoinTests.xctest */,
+				385A793727F4AF7000D0265A /* MeraCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		385A791927F4AF6F00D0265A /* MeraCoin */ = {
+			isa = PBXGroup;
+			children = (
+				387E3E4927F58808002DE3D8 /* Extensions */,
+				387E3E4827F587FF002DE3D8 /* Utils */,
+				385A794C27F4B02900D0265A /* Network */,
+				385A794A27F4B00F00D0265A /* Modules */,
+				385A791A27F4AF6F00D0265A /* AppDelegate.swift */,
+				385A791C27F4AF6F00D0265A /* SceneDelegate.swift */,
+				385A791E27F4AF6F00D0265A /* ViewController.swift */,
+				385A792027F4AF6F00D0265A /* Main.storyboard */,
+				385A792327F4AF7000D0265A /* Assets.xcassets */,
+				385A792527F4AF7000D0265A /* LaunchScreen.storyboard */,
+				385A792827F4AF7000D0265A /* Info.plist */,
+			);
+			path = MeraCoin;
+			sourceTree = "<group>";
+		};
+		385A793027F4AF7000D0265A /* MeraCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				385A793127F4AF7000D0265A /* MeraCoinTests.swift */,
+				382DD12128105CF0000FA85A /* APITest.swift */,
+			);
+			path = MeraCoinTests;
+			sourceTree = "<group>";
+		};
+		385A793A27F4AF7000D0265A /* MeraCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				385A793B27F4AF7000D0265A /* MeraCoinUITests.swift */,
+				385A793D27F4AF7000D0265A /* MeraCoinUITestsLaunchTests.swift */,
+			);
+			path = MeraCoinUITests;
+			sourceTree = "<group>";
+		};
+		385A794A27F4B00F00D0265A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				385A794B27F4B02000D0265A /* CoinBoard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		385A794B27F4B02000D0265A /* CoinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				385A795827F4B55500D0265A /* Services */,
+				3824FF6F27F59E85005A7AA6 /* View */,
+				385A794F27F4B04E00D0265A /* ViewControllers */,
+				385A794E27F4B04200D0265A /* ViewModels */,
+				385A794D27F4B03600D0265A /* Models */,
+			);
+			path = CoinBoard;
+			sourceTree = "<group>";
+		};
+		385A794C27F4B02900D0265A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3866290A2810FCD10020CAE3 /* CoinAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		385A794D27F4B03600D0265A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				385A795627F4B4CB00D0265A /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		385A794E27F4B04200D0265A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				385A795227F4B1BA00D0265A /* CoinListViewModel.swift */,
+				385A795427F4B48800D0265A /* CoinViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		385A794F27F4B04E00D0265A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				385A795027F4B14300D0265A /* CoinboardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		385A795827F4B55500D0265A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				385A795927F4B56800D0265A /* CoinServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		387E3E4827F587FF002DE3D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				387E3E4A27F5882C002DE3D8 /* BaseViewController.swift */,
+				387E3E4C27F58839002DE3D8 /* ViewControllerUtils.swift */,
+				38666C9E27F8AB100042E931 /* AppUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		387E3E4927F58808002DE3D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				387E3E4E27F5884A002DE3D8 /* GeneralExtension.swift */,
+				387E3E5027F58854002DE3D8 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5048288108D022C8AEC6EF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6FEB043C734F92D8561B11 /* Pods_MeraCoin.framework */,
+				FA25DBFFC385AE75E7493E10 /* Pods_MeraCoin_MeraCoinUITests.framework */,
+				76DF9F49044E1D7C8E7AD14D /* Pods_MeraCoinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385A791627F4AF6F00D0265A /* MeraCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385A794127F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoin" */;
+			buildPhases = (
+				F0EF81F82C738A1DC4FA27CE /* [CP] Check Pods Manifest.lock */,
+				385A791327F4AF6F00D0265A /* Sources */,
+				385A791427F4AF6F00D0265A /* Frameworks */,
+				385A791527F4AF6F00D0265A /* Resources */,
+				84CF4D91C15192B5FE3C0751 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeraCoin;
+			productName = MeraCoin;
+			productReference = 385A791727F4AF6F00D0265A /* MeraCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		385A792C27F4AF7000D0265A /* MeraCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385A794427F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoinTests" */;
+			buildPhases = (
+				A8D4260333D239CCCADD9E43 /* [CP] Check Pods Manifest.lock */,
+				385A792927F4AF7000D0265A /* Sources */,
+				385A792A27F4AF7000D0265A /* Frameworks */,
+				385A792B27F4AF7000D0265A /* Resources */,
+				B2AE24B5953714D7E07D8E33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385A792F27F4AF7000D0265A /* PBXTargetDependency */,
+			);
+			name = MeraCoinTests;
+			productName = MeraCoinTests;
+			productReference = 385A792D27F4AF7000D0265A /* MeraCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		385A793627F4AF7000D0265A /* MeraCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385A794727F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoinUITests" */;
+			buildPhases = (
+				E19315B0C9E764C3DA0DC9EC /* [CP] Check Pods Manifest.lock */,
+				385A793327F4AF7000D0265A /* Sources */,
+				385A793427F4AF7000D0265A /* Frameworks */,
+				385A793527F4AF7000D0265A /* Resources */,
+				DAC5B916AD406D3432AFCC12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385A793927F4AF7000D0265A /* PBXTargetDependency */,
+			);
+			name = MeraCoinUITests;
+			productName = MeraCoinUITests;
+			productReference = 385A793727F4AF7000D0265A /* MeraCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385A790F27F4AF6F00D0265A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					385A791627F4AF6F00D0265A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					385A792C27F4AF7000D0265A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 385A791627F4AF6F00D0265A;
+					};
+					385A793627F4AF7000D0265A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 385A791627F4AF6F00D0265A;
+					};
+				};
+			};
+			buildConfigurationList = 385A791227F4AF6F00D0265A /* Build configuration list for PBXProject "MeraCoin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 385A790E27F4AF6F00D0265A;
+			productRefGroup = 385A791827F4AF6F00D0265A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385A791627F4AF6F00D0265A /* MeraCoin */,
+				385A792C27F4AF7000D0265A /* MeraCoinTests */,
+				385A793627F4AF7000D0265A /* MeraCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385A791527F4AF6F00D0265A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385A792727F4AF7000D0265A /* LaunchScreen.storyboard in Resources */,
+				385A792427F4AF7000D0265A /* Assets.xcassets in Resources */,
+				385A792227F4AF6F00D0265A /* Main.storyboard in Resources */,
+				3824FF7327F59ED3005A7AA6 /* CoinDetailCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A792B27F4AF7000D0265A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A793527F4AF7000D0265A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84CF4D91C15192B5FE3C0751 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoin/Pods-MeraCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D4260333D239CCCADD9E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeraCoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AE24B5953714D7E07D8E33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoinTests/Pods-MeraCoinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC5B916AD406D3432AFCC12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeraCoin-MeraCoinUITests/Pods-MeraCoin-MeraCoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E19315B0C9E764C3DA0DC9EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeraCoin-MeraCoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0EF81F82C738A1DC4FA27CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeraCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385A791327F4AF6F00D0265A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385A795127F4B14300D0265A /* CoinboardViewController.swift in Sources */,
+				387E3E5127F58854002DE3D8 /* UIColor+Extension.swift in Sources */,
+				387E3E4D27F58839002DE3D8 /* ViewControllerUtils.swift in Sources */,
+				387E3E4F27F5884A002DE3D8 /* GeneralExtension.swift in Sources */,
+				385A791F27F4AF6F00D0265A /* ViewController.swift in Sources */,
+				387E3E4B27F5882C002DE3D8 /* BaseViewController.swift in Sources */,
+				385A795A27F4B56800D0265A /* CoinServices.swift in Sources */,
+				3866290B2810FCD10020CAE3 /* CoinAPI.swift in Sources */,
+				385A795327F4B1BA00D0265A /* CoinListViewModel.swift in Sources */,
+				38666C9F27F8AB100042E931 /* AppUtils.swift in Sources */,
+				385A795527F4B48800D0265A /* CoinViewModel.swift in Sources */,
+				3824FF7227F59ED3005A7AA6 /* CoinDetailCell.swift in Sources */,
+				385A791B27F4AF6F00D0265A /* AppDelegate.swift in Sources */,
+				385A791D27F4AF6F00D0265A /* SceneDelegate.swift in Sources */,
+				385A795727F4B4CB00D0265A /* CoinModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A792927F4AF7000D0265A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382DD12228105CF0000FA85A /* APITest.swift in Sources */,
+				385A793227F4AF7000D0265A /* MeraCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A793327F4AF7000D0265A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385A793E27F4AF7000D0265A /* MeraCoinUITestsLaunchTests.swift in Sources */,
+				385A793C27F4AF7000D0265A /* MeraCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		385A792F27F4AF7000D0265A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385A791627F4AF6F00D0265A /* MeraCoin */;
+			targetProxy = 385A792E27F4AF7000D0265A /* PBXContainerItemProxy */;
+		};
+		385A793927F4AF7000D0265A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385A791627F4AF6F00D0265A /* MeraCoin */;
+			targetProxy = 385A793827F4AF7000D0265A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		385A792027F4AF6F00D0265A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385A792127F4AF6F00D0265A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		385A792527F4AF7000D0265A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				385A792627F4AF7000D0265A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		385A793F27F4AF7000D0265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		385A794027F4AF7000D0265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		385A794227F4AF7000D0265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C13B86BFD5273637DB1980D /* Pods-MeraCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeraCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minhmera.MeraCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		385A794327F4AF7000D0265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60A8EA75BEB51779F0B4CC8 /* Pods-MeraCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeraCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minhmera.MeraCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		385A794527F4AF7000D0265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747A219998DF3F6FCD2365B4 /* Pods-MeraCoinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minhmera.MeraCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeraCoin.app/MeraCoin";
+			};
+			name = Debug;
+		};
+		385A794627F4AF7000D0265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728A24D92145B06F30BF2521 /* Pods-MeraCoinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minhmera.MeraCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeraCoin.app/MeraCoin";
+			};
+			name = Release;
+		};
+		385A794827F4AF7000D0265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466E86C7D4ACD7F856F418AD /* Pods-MeraCoin-MeraCoinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minhmera.MeraCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeraCoin;
+			};
+			name = Debug;
+		};
+		385A794927F4AF7000D0265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E2E815C9F9BAA7C38B4704 /* Pods-MeraCoin-MeraCoinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = minhmera.MeraCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeraCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385A791227F4AF6F00D0265A /* Build configuration list for PBXProject "MeraCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385A793F27F4AF7000D0265A /* Debug */,
+				385A794027F4AF7000D0265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385A794127F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385A794227F4AF7000D0265A /* Debug */,
+				385A794327F4AF7000D0265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385A794427F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385A794527F4AF7000D0265A /* Debug */,
+				385A794627F4AF7000D0265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385A794727F4AF7000D0265A /* Build configuration list for PBXNativeTarget "MeraCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385A794827F4AF7000D0265A /* Debug */,
+				385A794927F4AF7000D0265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385A790F27F4AF6F00D0265A /* Project object */;
+}

@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MeraCoin' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MeraCoin
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'FontAwesome.swift'
+  pod 'DropDown'
+  pod 'SDWebImage'
+  pod 'SDWebImageFLPlugin'
+  target 'MeraCoinTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
+    pod 'RxTest'
+    pod 'RxBlocking'
+    pod 'Alamofire', '~> 5.0.0-rc.3'
+    pod 'SDWebImage'
+    pod 'SDWebImageFLPlugin'
+  end
+
+  target 'MeraCoinUITests' do
+    # Pods for testing
+  end
+
+end
